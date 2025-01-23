@@ -8,7 +8,7 @@ interface ArticleCardProps {
 
 const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
   return (
-    <div className="article-card rounded-2">
+    <div className="article-card">
       <img src={article.image_url} alt={article.title} />
       <h2 className="my-3 fst-italic">{article.title}</h2>
       <p>{new Date(article.published_at).toLocaleDateString()}</p>
