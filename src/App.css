@@ -1,0 +1,19 @@
+
+.article-card {
+  border: 2px solid rgb(68, 64, 64);
+  width: 25rem;
+  padding: 5px;
+  margin: 8px;
+  text-align: left;
+}
+
+.article-card img {
+  width: 100%;
+  height: 250px;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
