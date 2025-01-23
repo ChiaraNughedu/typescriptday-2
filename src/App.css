@@ -1,6 +1,7 @@
 
 .article-card {
   border: 2px solid rgb(68, 64, 64);
+  border-radius: 8px;
   width: 25rem;
   padding: 5px;
   margin: 8px;
